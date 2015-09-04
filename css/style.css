@@ -1,0 +1,389 @@
+@charset "utf-8";
+
+/* ベース ここから↓ */
+
+body {
+  background-image: url(../images/wood.jpg);
+  background-repeat: repeat;
+  background-position: center top;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 87.5%;
+  line-height: 1.4;
+}
+#header,
+nav,
+#path,
+#contents,
+footer {
+  width: 860px;
+  margin: 0 auto 0 auto;
+}
+#header {
+  width: 100%;
+  height: 154px;
+  text-align: center;
+  padding: 0;
+  background-image: url(../images/logo_b1_2.jpg), url(../images/logo_b2_2.jpg), url(../images/logo_b3_2.jpg);
+  background-repeat: no-repeat;
+  background-position: center, left, right;
+}
+#header img {
+  padding: 50px 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 30px 0 20px 0;
+  padding-left: 0;
+  overflow: hidden;
+}
+nav ul li {
+  width: 215px;
+  float: left;
+}
+nav ul li a {
+  display: block;
+  height: 0;
+  padding-top: 60px;
+  overflow: hidden;
+}
+p {
+  margin: 0 0 20px 0;
+}
+img {
+  border: 0;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  color: blue;
+}
+header h1 a {
+  display: inline-block;
+}
+header h1 a img {
+  vertical-align: bottom;
+}
+#path ol {
+  list-style-type: none;
+  padding: 0;
+}
+#path ol li {
+  display: inline;
+  margin-right: 5px;
+}
+#path ol li a {
+  padding-right: 15px;
+}
+nav ul li#nav_about a {
+  background-image: url(../images/menu_about.png);
+}
+nav ul li#nav_gallery a {
+  background-image: url(../images/menu_gallery.png);
+}
+nav ul li#nav_postage a {
+  background-image: url(../images/menu_postage.png);
+}
+nav ul li#nav_contact a {
+  background-image: url(../images/menu_contact.png);
+}
+#main {
+  width: 550px;
+  padding: 20px;
+  float: left;
+}
+#sub {
+  width: 240px;
+  float: right;
+}
+aside {
+  margin-top: 20px;
+}
+footer {
+  padding-top: 10px;
+}
+#main h1 {
+  margin-bottom: 30px;
+  padding: 20px 40px 20px 10px;
+  background-image: url(../images/bg_h1_left.png), url(../images/line7.png), url(../images/line7.png);
+  background-repeat: no-repeat, repeat-x, repeat-x;
+  background-position: right center, left bottom, left top;
+  font-size: 180%;
+}
+#contents {
+  overflow: hidden;
+}
+.bnr_area {
+  margin-bottom: 30px;
+}
+.bnr_area dt img {
+  margin-bottom: 6px;
+  vertical-align: bottom;
+}
+.bnr_area a {
+  text-decoration: none;
+}
+.bnr_area dl,
+.bnr_area dt,
+.bnr_area dd,
+.bnr_area p {
+  margin: 0;
+}
+.bnr_area p img {
+  vertical-align: text-bottom;
+}
+#about #nav_about a,
+#gallery #nav_gallery a,
+#postage #nav_postage a,
+#contact #nav_contact a,
+nav ul li a:hover {
+  background-position: 0 -60px;
+}
+#news ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+#news ul li {
+  padding: 20px 0 20px 160px;
+  border-bottom: 1px dotted #fff;
+  text-indent: -160px;
+}
+#pagetop {
+  margin-bottom: 0;
+  float: right;
+}
+#pagetop a {
+  display: block;
+  min-height: 16px;
+  padding: 6px 0 6px 28px;
+  background-image: url(../images/arrow.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+address {
+  color: #000;
+  padding: 10px;
+  clear: both;
+  background-color: darkgoldenrod;
+  font-style: normal;
+  text-align: center;
+}
+#copyright {
+  text-align: center;
+}
+#copyright small {
+  font-size: 100%;
+}
+
+/* ベースここまで↑ */
+
+
+/* トップページ ここから↓ */
+
+#main h2 {
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 17px;
+  padding: 15px 0 15px 50px;
+  background-image: url(../images/200.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 140%;
+}
+#graphic {
+  width: 860px;
+  height: 300px;
+  margin: 0 auto 30px auto;
+}
+#graphic ul {
+  list-style: none;
+  padding-left: 0;
+}
+#graphic ul li {
+  display: none;
+  position: absolute;
+}
+#graphic ul li.now {
+  display: block;
+}
+#news ul li time {
+  display: inline-block;
+  width: 160px;
+  font-weight: bold;
+  text-indent: 0;
+}
+
+/* トップページ ここまで↓ */
+
+
+/* aboutページ ここから↓ */
+
+.image_right {
+  float: right;
+  margin-left: 25px;
+}
+.image_left {
+  float: left;
+  margin-right: 25px;
+}
+.concept_box {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.about_box {
+  margin-bottom: 50px;
+}
+
+/* aboutここまで↑ */
+
+
+/* 「ガイドのご案内」ページ ここから↓ */
+
+table thead tr th {
+  background-color: #ffdd63;
+}
+table tbody tr:nth-child(even) td {
+  background-color: #eef8fa;
+}
+
+/* 「ガイドのご案内」ページ ここまで↑ */
+
+
+/* galleryページ ここから↓ */
+
+.gallery_area {
+  width: 600px;
+}
+.gallery_area img {
+  float: left;
+}
+.gallery_area ul {
+  list-style: none;
+  top: 0;
+  width: 600px;
+  height: 500px;
+  margin: 10px 0px;
+  padding: 0;
+  text-align: center;
+}
+.gallery_area ul li,
+ul li dl {
+  width: 200px;
+  height: 150px;
+}
+.gallery_area ul li {
+  display: inline-block;
+  position: relative;
+  margin: 10px 5px;
+}
+.gallery_area ul dl {
+  margin: 0;
+  padding: 20px 10px;
+  color: black;
+  font-weight: bold;
+  background: rgba(255, 255, 0, 0.2);
+}
+.gallery_area ul dl dt {
+  margin-bottom: 0.5em;
+}
+.gallery_area ul dl dd {
+  margin: 0;
+  font-size: 10px;
+  line-height: 1.6em;
+  text-align: justify;
+  word-break: break-all;
+}
+.gallery_area ul dl dd:last-of-type {
+  margin-top: 10px;
+  text-align: right;
+}
+.gallery_area ul a {
+  padding: 0.3em 0.5em;
+  background-color: dimgray;
+}
+.gallery_area ul dl {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+}
+.gallery_area dl {
+  opacity: 0;
+  transform: scale(0.75, 0);
+  transition: 0.5s;
+}
+.gallery_area:hover dl {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+/* galleryページ ここまで↑ */
+
+
+/* 「お問い合わせ」ページ ここから↓ */
+form p {
+  margin-bottom: 30px;
+}
+form p:nth-last-child(2) {
+  margin-bottom: 7px;
+}
+form p:last-child {
+  margin-bottom: 0;
+}
+input,
+textarea {
+  margin-top: 7px;
+}
+textarea {
+  width: 420px;
+  height: 115px;
+  overflow-y: scroll;
+}
+input[type="text"] {
+  width: 200px;
+}
+input[type="email"] {
+  width: 300px;
+}
+input[required] {
+  background-color:burlywood;
+}
+textarea {
+  width: 420px;
+  height: 115px;
+  overflow-y: scroll;
+}
+
+/* 「お問い合わせ」ページ ここまで↑ */
+
+
+/* 配送ページ ここから↓ */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table caption {
+  overflow: hidden;
+  text-align: left;
+}
+table caption p {
+  margin-bottom: 30px;
+}
+table th,
+table td {
+  padding: 15px;
+  border: 1px solid #fff;
+  vertical-align: middle;
+}
+table thead tr th {
+  background-color: chocolate;
+}
+table tr th:first-child {
+  width: 30%;
+}
+table tr td {
+  text-align: center;
+}
+/* 配送ページ ここまで↑ */
